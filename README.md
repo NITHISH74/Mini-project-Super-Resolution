@@ -7,7 +7,7 @@
 - For more computer vision applications, check [TLXCV](https://github.com/tensorlayer/TLXCV)
 
 
-### SRGAN Architecture
+### ESRGAN Architecture
 
 
 ![image](https://github.com/NITHISH74/Mini-project-Super-Resolution/assets/94164665/e15f91d3-2704-4093-bfd2-c15089d2a8a2)
@@ -26,9 +26,9 @@
 
 ### Run
 
-🔥🔥🔥🔥🔥🔥 You need install [TensorLayerX](https://github.com/tensorlayer/TensorLayerX#installation) at first!
+You need install [TensorLayerX](https://github.com/tensorlayer/TensorLayerX#installation) at first!
 
-🔥🔥🔥🔥🔥🔥 Please install TensorLayerX via source
+Please install TensorLayerX via source
 
 ```bash
 pip install git+https://github.com/tensorlayer/tensorlayerx.git 
@@ -44,7 +44,7 @@ config.TRAIN.img_path = "your_image_folder/"
 Your directory structure should look like this:
 
 ```
-srgan/
+esrgan/
     └── config.py
     └── srgan.py
     └── train.py
