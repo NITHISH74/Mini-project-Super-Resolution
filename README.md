@@ -65,7 +65,7 @@ esrgan/
 python train.py
 ```
 
-🔥Modify a line of code in **train.py**, easily switch to any framework!
+Modify a line of code in **train.py**, easily switch to any framework!
 
 ```python
 import os
@@ -74,28 +74,13 @@ os.environ['TL_BACKEND'] = 'tensorflow'
 # os.environ['TL_BACKEND'] = 'paddle'
 # os.environ['TL_BACKEND'] = 'pytorch'
 ```
-🚧 We will support PyTorch as Backend soon.
+ We will support PyTorch as Backend soon.
 
 
-#### Evaluation.
 
-🔥 We have trained SRGAN on DIV2K dataset.
-🔥 Download model weights as follows.
-
-|              | SRGAN_g | SRGAN_d | 
-|------------- |---------|---------|
-| TensorFlow   | [Baidu](https://pan.baidu.com/s/118uUg3oce_3NZQCIWHVjmA?pwd=p9li), [Googledrive](https://drive.google.com/file/d/1GlU9At-5XEDilgnt326fyClvZB_fsaFZ/view?usp=sharing) |[Baidu](https://pan.baidu.com/s/1DOpGzDJY5PyusKzaKqbLOg?pwd=g2iy), [Googledrive](https://drive.google.com/file/d/1RpOtVcVK-yxnVhNH4KSjnXHDvuU_pq3j/view?usp=sharing)   |        
-| PaddlePaddle | [Baidu](https://pan.baidu.com/s/1ngBpleV5vQZQqNE_8djDIg?pwd=s8wc), [Googledrive](https://drive.google.com/file/d/1GRNt_ZsgorB19qvwN5gE6W9a_bIPLkg1/view?usp=sharing)  | [Baidu](https://pan.baidu.com/s/1nSefLNRanFImf1DskSVpCg?pwd=befc), [Googledrive](https://drive.google.com/file/d/1Jf6W1ZPdgtmUSfrQ5mMZDB_hOCVU-zFo/view?usp=sharing)   |         
-| MindSpore    | 🚧Coming soon!    | 🚧Coming soon!     |         
-| PyTorch      | 🚧Coming soon!    | 🚧Coming soon!     |
-
-
-Download weights file and put weights under the folder srgan/models/.
-
-Your directory structure should look like this:
 
 ```
-srgan/
+esrgan/
     └── config.py
     └── srgan.py
     └── train.py
