@@ -14,9 +14,9 @@
 ![image](https://github.com/NITHISH74/Mini-project-Super-Resolution/assets/94164665/b6bab2aa-5857-4f8d-ab56-22a60a610657)
 
 
-### Prepare Data and Pre-trained VGG
+### Prepare Data and Pre-trained:
 
-- 1. You need to download the pretrained VGG19 model weights in [here](https://drive.google.com/file/d/1CLw6Cn3yNI1N15HyX99_Zy9QnDcgP3q7/view?usp=sharing).
+- 1. You need to download the pretrained model weights in [here](https://drive.google.com/file/d/1CLw6Cn3yNI1N15HyX99_Zy9QnDcgP3q7/view?usp=sharing).
 - 2. You need to have the high resolution images for training.
   -  In this experiment, I used images from [DIV2K - bicubic downscaling x4 competition](http://www.vision.ee.ethz.ch/ntire17/), so the hyper-paremeters in `config.py` (like number of epochs) are seleted basic on that dataset, if you change a larger dataset you can reduce the number of epochs. 
   -  If you dont want to use DIV2K dataset, you can also use [Yahoo MirFlickr25k](http://press.liacs.nl/mirflickr/mirdownload.html), just simply download it using `train_hr_imgs = tl.files.load_flickr25k_dataset(tag=None)` in `main.py`. 
