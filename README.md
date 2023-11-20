@@ -143,7 +143,23 @@ year = {2017}
 
 - [Style Transfer](https://github.com/tensorlayer/adaptive-style-transfer)
 - [Pose Estimation](https://github.com/tensorlayer/openpose)
-
+### Conclusion
+In conclusion, The Deep learning-based image enhancement process
+using the Enhanced Super-Resolution Generative Adversarial Network
+(ESRGAN). The script begins by preprocessing and enhancing an
+original image through the ESRGAN model, resulting in a highresolution, visually improved image. Post-processing steps involve
+sharpening the enhanced image to further refine its quality.
+Additionally, the script explores down sampling and subsequently
+upscaling a test image, demonstrating the model's performance on
+different resolutions.
+The conclusion of the script involves a visual comparison of the original
+image, downscaled image, and the ESRGAN super-resolution output. It
+calculates the Peak Signal-to-Noise Ratio (PSNR) to quantitatively
+measure the quality improvement achieved by the ESRGAN model.
+Finally, the sharpened and enhanced output image is displayed,
+providing a visual representation of the overall image enhancement
+process. The script emphasizes the effectiveness of ESRGAN in superresolution tasks and highlights the improvements in image quality
+achieved through deep learning techniques.
 ### Discussion
 
 - [TensorLayer Slack](https://join.slack.com/t/tensorlayer/shared_invite/enQtMjUyMjczMzU2Njg4LWI0MWU0MDFkOWY2YjQ4YjVhMzI5M2VlZmE4YTNhNGY1NjZhMzUwMmQ2MTc0YWRjMjQzMjdjMTg2MWQ2ZWJhYzc)
