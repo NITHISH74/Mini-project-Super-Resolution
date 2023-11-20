@@ -147,7 +147,7 @@ year = {2017}
 In conclusion, The Deep learning-based image enhancement process
 using the Enhanced Super Resolution Generative Adversarial Network
 (ESRGAN). The script begins by preprocessing and enhancing an
-original image through the ESRGAN model, resulting in a highresolution, visually improved image. Post-processing steps involve
+original image through the ESRGAN model, resulting in a High Resolution, visually improved image. Post-processing steps involve
 sharpening the enhanced image to further refine its quality.
 Additionally, the script explores down sampling and subsequently
 upscaling a test image, demonstrating the model's performance on
@@ -160,7 +160,7 @@ calculates the Peak Signal to Noise Ratio (PSNR) to quantitatively
 measure the quality improvement achieved by the ESRGAN model.
 Finally, the sharpened and enhanced output image is displayed,
 providing a visual representation of the overall image enhancement
-process. The script emphasizes the effectiveness of ESRGAN in superresolution tasks and highlights the improvements in image quality
+process. The script emphasizes the effectiveness of ESRGAN in Super Resolution tasks and highlights the improvements in image quality
 achieved through deep learning techniques.
 ### Discussion
 
