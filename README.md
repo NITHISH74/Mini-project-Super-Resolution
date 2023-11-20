@@ -145,7 +145,7 @@ year = {2017}
 - [Pose Estimation](https://github.com/tensorlayer/openpose)
 ### Conclusion
 In conclusion, The Deep learning-based image enhancement process
-using the Enhanced Super-Resolution Generative Adversarial Network
+using the Enhanced Super Resolution Generative Adversarial Network
 (ESRGAN). The script begins by preprocessing and enhancing an
 original image through the ESRGAN model, resulting in a highresolution, visually improved image. Post-processing steps involve
 sharpening the enhanced image to further refine its quality.
@@ -155,8 +155,8 @@ different resolutions.
 
 
 The conclusion of the script involves a visual comparison of the original
-image, downscaled image, and the ESRGAN super-resolution output. It
-calculates the Peak Signal-to-Noise Ratio (PSNR) to quantitatively
+image, downscaled image, and the ESRGAN super resolution output. It
+calculates the Peak Signal to Noise Ratio (PSNR) to quantitatively
 measure the quality improvement achieved by the ESRGAN model.
 Finally, the sharpened and enhanced output image is displayed,
 providing a visual representation of the overall image enhancement
