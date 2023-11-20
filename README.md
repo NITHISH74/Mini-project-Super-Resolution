@@ -162,8 +162,4 @@ Finally, the sharpened and enhanced output image is displayed,
 providing a visual representation of the overall image enhancement
 process. The script emphasizes the effectiveness of ESRGAN in Super Resolution tasks and highlights the improvements in image quality
 achieved through deep learning techniques.
-### Discussion
-
-- [TensorLayer Slack](https://join.slack.com/t/tensorlayer/shared_invite/enQtMjUyMjczMzU2Njg4LWI0MWU0MDFkOWY2YjQ4YjVhMzI5M2VlZmE4YTNhNGY1NjZhMzUwMmQ2MTc0YWRjMjQzMjdjMTg2MWQ2ZWJhYzc)
-- [TensorLayer WeChat](https://github.com/tensorlayer/tensorlayer-chinese/blob/master/docs/wechat_group.md)
 
